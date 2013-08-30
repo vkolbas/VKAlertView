@@ -18,6 +18,7 @@
 		7DD8406217D1492600E3BF5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD8406117D1492600E3BF5D /* Default-568h@2x.png */; };
 		7DD8406517D1492600E3BF5D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD8406317D1492600E3BF5D /* MainStoryboard.storyboard */; };
 		7DD8406817D1492600E3BF5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD8406717D1492600E3BF5D /* ViewController.m */; };
+		7DD8407017D1499E00E3BF5D /* VKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD8406F17D1499E00E3BF5D /* VKAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		7DD8406417D1492600E3BF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7DD8406617D1492600E3BF5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7DD8406717D1492600E3BF5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DD8406E17D1499E00E3BF5D /* VKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAlertView.h; sourceTree = "<group>"; };
+		7DD8406F17D1499E00E3BF5D /* VKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				7DD8406617D1492600E3BF5D /* ViewController.h */,
 				7DD8406717D1492600E3BF5D /* ViewController.m */,
 				7DD8405217D1492600E3BF5D /* Supporting Files */,
+				7DD8406E17D1499E00E3BF5D /* VKAlertView.h */,
+				7DD8406F17D1499E00E3BF5D /* VKAlertView.m */,
 			);
 			path = VKAlertView;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				7DD8405817D1492600E3BF5D /* main.m in Sources */,
 				7DD8405C17D1492600E3BF5D /* AppDelegate.m in Sources */,
 				7DD8406817D1492600E3BF5D /* ViewController.m in Sources */,
+				7DD8407017D1499E00E3BF5D /* VKAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
