@@ -22,22 +22,19 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    double delayInSeconds = 2.0;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        self.alertView = [[VKAlertView alloc] initWithFrame:CGRectMake(self.view.center.x-80.,
-                                                                       self.view.center.y-50.,
-                                                                       160,
-                                                                       100)
-                                         andBackgroundColor:[UIColor blueColor]];
-        [self.alertView addToView:self.view];
-        [NSTimer scheduledTimerWithTimeInterval:3.0
+    
+    self.alertView = [[VKAlertView alloc] initWithFrame:CGRectMake(self.view.center.x-80.,
+                                                                   self.view.center.y-50.,
+                                                                   160,
+                                                                   100)];
+
+    [self.alertView addToView:self.view];
+
+    [NSTimer scheduledTimerWithTimeInterval:3.0
                                          target:self
                                        selector:@selector(remove)
                                        userInfo:nil
                                         repeats:NO];
-
-    });
 }
 
 - (void)remove {

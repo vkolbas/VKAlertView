@@ -20,14 +20,10 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundImage = [[UIImage imageNamed:@"background"] resizableImageWithCapInsets:UIEdgeInsetsMake(5, 5, 5, 5)];
+        self.backgroundColor = [UIColor colorWithPatternImage:self.backgroundImage];
     }
-    return self;
-}
 
-- (id)initWithFrame:(CGRect)frame andBackgroundColor:(UIColor *)color {
-    self = [self initWithFrame:frame];
-    self.backgroundColor = color;
     
     return self;
 }

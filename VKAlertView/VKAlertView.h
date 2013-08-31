@@ -10,9 +10,7 @@
 
 @interface VKAlertView : UIView
 
-
-// Init with BG color, otherwise black is default
-- (id)initWithFrame:(CGRect)frame andBackgroundColor:(UIColor *)color;
+@property (nonatomic, strong) UIImage *backgroundImage;
 
 // Animate to passed UIView
 - (void)addToView:(UIView *)view;

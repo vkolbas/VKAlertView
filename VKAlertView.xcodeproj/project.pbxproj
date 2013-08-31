@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D39466C17D2476A00FB1155 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D39466A17D2476A00FB1155 /* background.png */; };
+		7D39466D17D2476A00FB1155 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D39466B17D2476A00FB1155 /* background@2x.png */; };
 		7DD8404C17D1492600E3BF5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD8404B17D1492600E3BF5D /* UIKit.framework */; };
 		7DD8404E17D1492600E3BF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD8404D17D1492600E3BF5D /* Foundation.framework */; };
 		7DD8405017D1492600E3BF5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD8404F17D1492600E3BF5D /* CoreGraphics.framework */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D39466A17D2476A00FB1155 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7D39466B17D2476A00FB1155 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		7DD8404817D1492600E3BF5D /* VKAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD8404B17D1492600E3BF5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7DD8404D17D1492600E3BF5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D39466917D2476000FB1155 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7D39466A17D2476A00FB1155 /* background.png */,
+				7D39466B17D2476A00FB1155 /* background@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		7DD8403F17D1492600E3BF5D = {
 			isa = PBXGroup;
 			children = (
@@ -86,14 +99,15 @@
 		7DD8405117D1492600E3BF5D /* VKAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				7D39466917D2476000FB1155 /* Images */,
 				7DD8405A17D1492600E3BF5D /* AppDelegate.h */,
 				7DD8405B17D1492600E3BF5D /* AppDelegate.m */,
 				7DD8406317D1492600E3BF5D /* MainStoryboard.storyboard */,
 				7DD8406617D1492600E3BF5D /* ViewController.h */,
 				7DD8406717D1492600E3BF5D /* ViewController.m */,
-				7DD8405217D1492600E3BF5D /* Supporting Files */,
 				7DD8406E17D1499E00E3BF5D /* VKAlertView.h */,
 				7DD8406F17D1499E00E3BF5D /* VKAlertView.m */,
+				7DD8405217D1492600E3BF5D /* Supporting Files */,
 			);
 			path = VKAlertView;
 			sourceTree = "<group>";
@@ -168,6 +182,8 @@
 				7DD8406017D1492600E3BF5D /* Default@2x.png in Resources */,
 				7DD8406217D1492600E3BF5D /* Default-568h@2x.png in Resources */,
 				7DD8406517D1492600E3BF5D /* MainStoryboard.storyboard in Resources */,
+				7D39466C17D2476A00FB1155 /* background.png in Resources */,
+				7D39466D17D2476A00FB1155 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +320,7 @@
 				7DD8406D17D1492600E3BF5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
